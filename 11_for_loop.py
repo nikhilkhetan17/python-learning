@@ -29,3 +29,15 @@ for val in dictionary.values(): # same for keys -> dictionary.keys()
 # for i in range(1 , 21):
 #     print(i)
         
+        
+'''
+for ele in range(1, 16):
+    if ele % 3 == 0 and ele % 5 == 0:
+        print(f'{ele} FIZZBUZZ')
+    elif ele % 5 == 0:
+        print(f'{ele} BUZZ')
+    elif ele % 3 == 0:
+        print(f'{ele} FIZZ')
+    else:
+        print(ele)
+'''
