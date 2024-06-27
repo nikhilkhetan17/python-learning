@@ -1,5 +1,6 @@
+# Same as list, however you can't modify the items of tuple. 
 days = ('mon', 'tue', 'wed', 'thu', 'thu')
-
+ 
 print(type(days))
 print(days)
 
