@@ -25,6 +25,8 @@ for val in dictionary.values(): # same for keys -> dictionary.keys()
     print(f'Value is: {val}')
 
 # print numbers from 1 to 20:
+
+# The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
     
 # for i in range(1 , 21):
 #     print(i)
