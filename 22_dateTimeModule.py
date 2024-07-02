@@ -1,10 +1,10 @@
-# from datetime import datetime
+from datetime import datetime, timedelta
 # print(datetime.now())
 
-import datetime
+# import datetime
 # print(datetime.datetime.now())
 
-curr = datetime.datetime.now()
+curr = datetime.now()
 print(curr)
 print(curr.date())
 print(curr.time())
@@ -18,9 +18,13 @@ print(formattedDate)
 print('-----------------------------------')
 
 # future date
-futureDate = curr + datetime.timedelta(days= 10)
+futureDate = curr + timedelta(days= 10)
 print(futureDate)
 
 print('-----------------------------------')
 
 print(f'Date:{curr.day}/{curr.month}/{curr.year} Time:{curr.hour}:{curr.minute}')
+# -----------------------------------------------
+
+# datetime represents a specific point in time
+# timedelta represents a duration between two dates or times
