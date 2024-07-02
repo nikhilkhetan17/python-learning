@@ -27,4 +27,4 @@ print(f'Date:{curr.day}/{curr.month}/{curr.year} Time:{curr.hour}:{curr.minute}'
 # -----------------------------------------------
 
 # datetime represents a specific point in time
-# timedelta represents a duration between two dates or times
+# timedelta represents a duration or difference between two dates or times
